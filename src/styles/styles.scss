@@ -1,3 +1,7 @@
 //global
 @import "./global/base";
+@import "./global/variables";
 @import "./app/app";
+
+//components
+@import "./components/search-input";
