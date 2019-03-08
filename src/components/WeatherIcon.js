@@ -11,7 +11,7 @@ const WeatherIcon = ({weatherState, className}) => {
     case "Hail": {
       return <i className={`wi wi-hail ${className}`} />;
     }
-    case "Thunderstorm": {
+    case "Thunder": {
       return <i className={`wi wi-thunderstorm ${className}`} />;
     }
     case "Heavy Rain": {
