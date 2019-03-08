@@ -16,6 +16,10 @@
     letter-spacing: 0.6px;
     font-weight: 300;
     color: $white;
+
+    @media #{$desktop} {
+      font-size: 52px;
+    }
   }
 
   &__input {
@@ -26,5 +30,11 @@
     background: transparent;
     color: $white;
     font-weight: 300;
+
+    @media #{$desktop} {
+      height: 80px;
+      font-size: 38px;
+      margin-top: 1rem;
+    }
   }
 }

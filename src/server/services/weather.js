@@ -12,7 +12,7 @@ Weather.searchByLatLong = (query, callback) => {
 };
 
 Weather.searchByCity = (query, callback) => {
-  fetch(`${apiRoute}search/?city=${query}`)
+  fetch(`${apiRoute}search/?query=${query}`)
     .then(res => res.json())
     .then(data => callback(null, data))
     .catch(err => callback(err, null));

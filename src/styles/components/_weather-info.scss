@@ -1,0 +1,39 @@
+.weather-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__state {
+    text-align: center;
+    color: #f3f3f3;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    margin-left: -8px;
+  }
+
+  &__temp {
+    width: 100%;
+    text-align: center;
+    font-size: 62px;
+    font-weight: 300;
+    margin-top: 1.5rem;
+    color: #f3f3f3;
+
+    @media #{$desktop} {
+      margin-top: 2.5rem;
+      font-size: 6rem;
+    }
+  }
+
+  &__icon {
+    font-size: 8em;
+    color: #f3f3f3;
+    margin-top: 3rem;
+
+    @media #{$desktop} {
+      font-size: 13em;
+    }
+  }
+}
