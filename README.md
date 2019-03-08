@@ -1,4 +1,6 @@
 # Weather App
+Note: when searching; the WeatherAPI doesn't have ALL the cities in the world, and seems to only have major populated ones. Be sure to use a Zip Code if your City doesn't show up. 
+
 1. [Quick Start](#quick-start)  
 2. [File Structure](#file-structure)
 3. [Front-End Architecture](#front-end)  
