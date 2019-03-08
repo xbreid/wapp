@@ -6,9 +6,13 @@
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
-     width: 63.5%;
+     width: 83.5%;
      margin-left: auto;
      margin-right: auto;
+
+     @media #{$desktop} {
+       width: 63.5%;
+     }
    }
 
   &__label {
