@@ -41,7 +41,7 @@ Clone the site and change to its directory.
       yarn
       ```
       
-      Run develop server.
+      Run prod server.
       
       ```sh
       yarn prod
